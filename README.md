@@ -5,3 +5,4 @@
 "# dogLink" 
 "# exceptionOfletters" 
 "# Encapsulation" 
+"# inheritance" 

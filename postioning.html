@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .parent{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            top: 50px;
+            left: 500px;
+            background-color: red;
+        }
+        .child{
+            position: absolute;
+            /* top: 50px;
+            left: 50px; */
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1>Example relative</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime at voluptatum, nihil numquam incidunt omnis nisi suscipit facere necessitatibus magni minus facilis impedit mollitia totam architecto nemo alias sapiente expedita?</p>
+        <div class="child">
+            Lorem ipsum dolor  bero error quos recusandae? Excepturi, fugit.
+        </div>
+    </div>
+</body>
+</html>

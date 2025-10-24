@@ -8,3 +8,4 @@
 "# inheritance" 
 "# banking_encapsulation" 
 "# matrixContinuation" 
+"# stringProblemsAddition" 
